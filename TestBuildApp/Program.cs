@@ -3,9 +3,9 @@ using System.Threading;
 
 namespace TestBuildApp
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("App Started " + DateTime.Now.ToString());
 
