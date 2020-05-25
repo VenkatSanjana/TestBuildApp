@@ -5,6 +5,7 @@ WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
+
 COPY ["TestBuildApp.csproj", "TestBuildApp/"]
 RUN dotnet restore "TestBuildApp/TestBuildApp.csproj"
 COPY . .
