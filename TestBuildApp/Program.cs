@@ -14,6 +14,7 @@ namespace TestBuildApp
             {
                 Console.WriteLine("Processing: " + i + " - " + DateTime.Now.ToString());
                 Thread.Sleep(3000);
+                Console.WriteLine("Resume Process " + DateTime.Now.ToString());
             }
 
             Console.WriteLine("App Completed " + DateTime.Now.ToString());
