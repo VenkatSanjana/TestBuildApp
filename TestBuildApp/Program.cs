@@ -7,6 +7,7 @@ namespace TestBuildApp
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Begin Process " + DateTime.Now.ToString());
             Console.WriteLine("App Started " + DateTime.Now.ToString());
 
             for(int i =0; i < 10; i++)
