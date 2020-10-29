@@ -1,0 +1,12 @@
+pipeline {
+    agent { label 'master'}
+
+    stages {
+        stage('Build Image') {
+		app = docker.build
+            
+        }
+        
+       
+    }
+}
